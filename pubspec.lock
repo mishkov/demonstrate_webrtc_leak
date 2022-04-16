@@ -98,9 +98,11 @@ packages:
   flutter_webrtc:
     dependency: "direct main"
     description:
-      name: flutter_webrtc
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "."
+      ref: fix-frame-capture
+      resolved-ref: f801cfbfb42d8a1e0cc498fb6f87b401e3e28b80
+      url: "https://github.com/mishkov/flutter-webrtc.git"
+    source: git
     version: "0.8.5"
   lints:
     dependency: transitive
